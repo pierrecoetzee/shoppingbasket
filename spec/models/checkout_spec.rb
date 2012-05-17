@@ -1,3 +1,5 @@
+# PLEAE RUN THIS FILE:    rspec --color --format doc spec/     FROM THE COMMAND LINE
+
 require 'checkout'
 
 describe "checkout" do
