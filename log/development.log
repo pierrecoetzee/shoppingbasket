@@ -11,3 +11,23 @@ Migrating to CreateShoppingBaskets (20120516144008)
   [1m[35m (0.2ms)[0m  select sqlite_version(*)
   [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("shopping_baskets")
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-25 17:48:50 +0100
+Served asset /rails.png - 200 OK (27ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-25 17:54:12 +0100
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-25 17:54:33 +0100
+Served asset /rails.png - 200 OK (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-25 18:02:33 +0100
+Served asset /rails.png - 200 OK (74ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-05-25 18:04:21 +0100
+Served asset /rails.png - 200 OK (0ms)

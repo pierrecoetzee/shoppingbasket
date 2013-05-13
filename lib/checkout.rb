@@ -84,23 +84,25 @@ end
 class ProductRule
   
   attr_accessor :price, :discount
- 
+  
+  @@total_price = 0
+  
   def initialize
      # available accross instances
-     $total = 0
      @items = 0
+     @@total_price = 0
   end
   
   def total_charge
-    $total
+    @@total_price
   end
   
   def price(amount)
-    $total +=amount
+    @@total_price +=amount
   end
   
   def discount(amount)
-    $total  -=  amount
+    @@total_price  -=  amount
   end
   
 end
